@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/*模拟复选*/
+.checkfather {
+  float: left;
+  min-height: 200px;
+  width: 100%;
+}
+
+.checkfather span {
+  float: left;
+  height: 30px;
+  width: 100%;
+}
+
+.check, .checked {
+  background: #fff;
+  float: left;
+  height: 13px;
+  width: 13px;
+}
+
+.check .icon {
+  border: 1px solid #0082C0;
+  float: left;
+  height: 13px;
+  position: relative;
+  margin-right: 5px;
+  width: 13px;
+}
+.check .icon:before {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 5px;
+  left: 2px;
+  position: absolute;
+  top: 1px;
+  transform: rotate(0deg);
+  width: 9px;
+}
+
+.checked .icon {
+  border: 1px solid #0082C0;
+  background: #0082C0;
+  float: left;
+  height: 13px;
+  margin-right: 5px;
+  position: relative;
+  width: 13px;
+}
+.checked .icon:before {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 5px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  transform: rotate(-45deg);
+  transition: all .1s ease-in-out;
+  width: 9px;
+}
+
+.checklists {
+  float: left;
+  height: 30px;
+  text-indent: 20px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=checkbox.css.map */
