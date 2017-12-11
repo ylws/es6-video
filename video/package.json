@@ -1,6 +1,6 @@
 {
   "name": "cfcmvideo",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "test",
   "main": "index.js",
   "scripts": {
